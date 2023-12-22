@@ -1,0 +1,55 @@
+repositories {
+  maven {
+    url = "https://cursemaven.com"
+  }
+}
+
+dependencies {
+  implementation fg.deobf("curse.maven:kleidersplayerrenderer-682065:4478427")
+}
+
+repositories {
+maven {
+  url = "https://maven.theillusivec4.top/"
+  }
+}
+
+dependencies {
+  runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.19.2-5.1.1.0")
+  compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.19.2-5.1.1.0:api")
+}
+
+repositories {
+  maven {
+    url = "https://maven.tterrag.com/"
+  }
+}
+
+dependencies {
+  implementation fg.deobf("com.simibubi.create:create-1.19.2:0.5.0.i-23:slim") { transitive = false }
+  implementation fg.deobf("com.jozufozu.flywheel:flywheel-forge-1.19.2:0.6.8-13")
+  implementation fg.deobf("com.tterrag.registrate:Registrate:MC1.19-1.1.5")
+}
+
+repositories {
+  maven {
+      url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+  }
+}
+
+dependencies {
+  implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.19:3.1.40')
+}
+
+repositories {
+  maven {
+    url = "https://modmaven.dev"
+  }
+}
+
+dependencies {
+  compileOnly(fg.deobf("mezz.jei:jei-1.19.2-common-api:11.4.0.290"))
+  compileOnly(fg.deobf("mezz.jei:jei-1.19.2-forge-api:11.4.0.290"))
+  runtimeOnly(fg.deobf("mezz.jei:jei-1.19.2-forge:11.4.0.290"))
+}
+

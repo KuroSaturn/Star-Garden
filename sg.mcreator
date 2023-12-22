@@ -1,0 +1,37 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "sg",
+    "modName": "Star Garden",
+    "version": "1.0.0",
+    "author": "Paulo Pinheiro, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "kleidersplayerrenderer",
+      "curios_api",
+      "create",
+      "geckolib",
+      "JEI"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.garden",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
